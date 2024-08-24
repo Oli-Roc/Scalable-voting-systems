@@ -80,7 +80,8 @@ These vectors allow for more nuanced voting procedures that can adapt to both el
 
 The document also proposes hybrid rules that combine elements of different traditional methods to achieve a balance between various strategic objectives, such as maximizing utility, ensuring fairness, and promoting inclusivity.
 
-Examples include combining support and approval measures with different weightings to tailor the voting process to specific strategic goals of the organization or group. Possible weightings for support and approval vectors include an efficient voting procedure based on the golden ratio.
+Examples include combining support and approval measures with different weightings to tailor the voting process to specific strategic goals of the organization or group. 
+Possible weightings for support and approval vectors include an efficient voting procedure based on the golden ratio.
 
 These procedures are designed to provide more flexible, scalable, and resilient decision-making processes, addressing the limitations of traditional voting systems by adhering to Arrow's criteria while incorporating innovative strategies to improve democratic representation and collective intelligence.
 
