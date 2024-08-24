@@ -65,7 +65,7 @@ This project is licensed under a Creative Commons Attribution-NonCommercial-Shar
 
 ## Acknowledgments
 
-Special thanks to the contributors and researchers whose work has inspired and guided this project. We also acknowledge the use of third-party libraries and tools as detailed in the [CREDITS](CREDITS.md) file.
+Special thanks to the contributors and researchers whose work has inspired and guided this project. We also acknowledge the use of third-party libraries and tools.
 
 ## Additional Resources
 
