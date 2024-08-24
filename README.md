@@ -36,18 +36,52 @@ cd SOW
 pip install -r requirements.txt
 ```
 
-## Usage
+## Voting procedures of the document
 
-Our repository contains several example scripts and notebooks demonstrating the use of different voting algorithms:
+Our repository contains a battery of different voting procedures which are all formalised to comply with the Arrow criteria and which therefore make it possible to develop different voting algorithms based on the same methodology.
 
-- **Simple Voting Procedure**: Example of a basic voting system that meets all of Arrow's criteria.
-- **Advanced Collective Decision Making**: Demonstrates a more complex procedure suitable for larger datasets and national elections.
+Plurality Rule (Leximax Ordering):
 
-To run an example, execute:
+This voting method focuses on identifying a single most preferred alternative. It is characterized by maximizing the satisfaction of the most satisfied individuals, thereby aligning with elitist strategies.
+In this system, voters can approve a single alternative (1-approval voting), and the alternative with the most votes wins. This method favors "exclusive" candidates who are highly preferred by a subset of voters but may not have broad approval.
+The plurality rule is strong on support as it prioritizes alternatives that receive the highest number of first-choice votes, disregarding the preferences of the less satisfied voters.
 
-```bash
-python examples/simple_voting.py
-```
+Approval Voting:
+
+Voters can approve multiple alternatives without ranking them. Each approved alternative gets one point, and the alternative with the highest total points is selected.
+This method is weakly approval-oriented, focusing on minimizing rejection rather than maximizing strong support. It is often used to find a broadly acceptable option rather than a highly preferred one.
+The system is ideal for identifying "inclusive" candidates who may not be the top choice but are widely acceptable to a large portion of voters.
+
+Borda Count:
+
+A scoring system where voters rank alternatives, and points are assigned based on the position in each voter’s ranking. The alternative with the highest total score wins.
+The Borda count is a hybrid approach that balances support and approval. It considers all rankings, thus favoring alternatives that are generally well-regarded across the board, rather than just the most or least preferred.
+This method is weakly consensus-oriented and is suitable for situations where both broad acceptability and moderate support are desired.
+
+Nash Value:
+
+This method uses a geometric weighting system to evaluate alternatives based on a product of utilities (or satisfactions) across all voters.
+It emphasizes a balance between individual satisfaction and collective agreement, making it suitable for scenarios where strategic decisions need to be both resilient and inclusive.
+The Nash value is highly approval-oriented and prioritizes alternatives that have a reasonable level of support and are acceptable to a majority.
+
+Median Voting Rules (e.g., Bucklin and Majority Judgment):
+
+These rules determine the winning alternative based on the median voter’s preference, often resolving ties using additional criteria.
+Such methods aim to reflect the central tendency of voter preferences and are highly suitable for finding a compromise that balances support and approval.
+Majority judgment, in particular, evaluates alternatives by considering the median evaluation across all voters, making it a robust choice for achieving consensus in diverse groups.
+
+Support and Approval Vectors:
+
+The document introduces new concepts like support and approval vectors to represent voter preferences more accurately. Support measures how many voters rank an alternative among their top choices, while approval quantifies the proportion of voters who do not reject the alternative.
+These vectors allow for more nuanced voting procedures that can adapt to both elitist and egalitarian strategies, depending on how they are aggregated and interpreted.
+
+Hybrid Voting Rules:
+
+The document also proposes hybrid rules that combine elements of different traditional methods to achieve a balance between various strategic objectives, such as maximizing utility, ensuring fairness, and promoting inclusivity.
+
+Examples include combining support and approval measures with different weightings to tailor the voting process to specific strategic goals of the organization or group.
+
+These procedures are designed to provide more flexible, scalable, and resilient decision-making processes, addressing the limitations of traditional voting systems by adhering to Arrow's criteria while incorporating innovative strategies to improve democratic representation and collective intelligence.
 
 ## Contributing
 
