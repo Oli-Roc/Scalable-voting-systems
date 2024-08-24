@@ -86,6 +86,10 @@ Possible weightings for support and approval vectors include an efficient voting
 
 These procedures are designed to provide more flexible, scalable, and resilient decision-making processes, addressing the limitations of traditional voting systems by adhering to Arrow's criteria while incorporating innovative strategies to improve democratic representation and collective intelligence.
 
+## Application
+
+These collective decision procedures and collective preference measurement procedures can be used and implemented for non-commercial purposes in any type of multi-agent system. They provide a solid scientific methodology for building consensus in a variety of systems, such as blockchain, civil society, public and private organisations, participatory educational structures, etc.
+
 ## Contributing
 
 We welcome contributions from the global developer community. If you would like to contribute:
